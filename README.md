@@ -9,13 +9,13 @@ npm install
 npm run dev
 ```
 
-## Build for GitHub Pages
+## Build and publish for GitHub Pages
 
 ```sh
 npm run build
 ```
 
-Publish the contents of `dist/` with GitHub Pages. Client-side routes use URL fragments (for example, `/#/shop`) so product, cart, checkout, login, and admin pages work on static hosting. Asset paths are relative to support project Pages sites.
+The GitHub Actions workflow in `.github/workflows/static.yml` runs this build and publishes the contents of `dist/` whenever changes are pushed to `main`. Client-side routes use URL fragments (for example, `/#/shop`) so product, cart, checkout, login, and admin pages work on static hosting. Asset paths are relative to support project Pages sites.
 
 ## Browser-only data
 
