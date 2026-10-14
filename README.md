@@ -2,12 +2,9 @@
 
 This project is a client-only storefront. Vite builds the React/TypeScript source into static HTML, CSS, and JavaScript in `dist/`; it does not need PHP, a database, or an API server.
 
-## Run locally
+## Run 
 
-```sh
-npm install
-npm run dev
-```
+https://jowd777.github.io/PeakCo
 
 ## Build and publish for GitHub Pages
 
